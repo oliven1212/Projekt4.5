@@ -3,11 +3,36 @@
     margin: 1%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
-    
-    }
+}
+
     .bigPicture{
-        width: 75vh;
-        margin: 1%;
+        width: 100vh;
+        margin: 4% auto;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        box-sizing: border-box;
+        
+        
     }
+    .bigPicture {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+.gallerifut {
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.body {
+    background-color: rgb(46, 46, 46);
+}
+
+.navbar {
+    padding-bottom: 2%;
+    font-size: 35px;
+    margin: 2%;
+    padding-left: 25%;
+
+}
