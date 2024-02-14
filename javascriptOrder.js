@@ -1,20 +1,21 @@
-    function calculateTotal() {
-       
-        var adultQuantity = document.getElementById("adultQuantity").value;
-        var childQuantity = document.getElementById("childQuantity").value;
+function calculateTotal() {
+    let adultQuantity = document.getElementById("adultQuantity").value;
+    let childQuantity = document.getElementById("childQuantity").value;
+    let total = 0;
 
-        
+    for (let i = 0; 1==1; i++) {
         if (adultQuantity >= 2 && childQuantity >= 2) {
-            const kombo = 100;
-            var total = 100;
-        } else {
-            
-            var totalAdult = adultQuantity * 40; 
-            var totalChild = childQuantity * 20; 
-        
-            var total = totalAdult + totalChild;
+            total += 100;
+            adultQuantity -= 2;
+            childQuantity -= 2;
+        }else{
+            total += adultQuantity*40;
+            total += childQuantity*20;
+            break;
         }
-
-        
-        document.getElementById("totalPrice").textContent = "Total Pris: $" + total.toFixed(2);
     }
+
+
+    
+    document.getElementById("totalPrice").textContent = "Samlet Pris: " + total + ",- kr.";
+}
