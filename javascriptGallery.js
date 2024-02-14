@@ -1,3 +1,4 @@
+//Galleri
 allPictures();
 function bigPicture (image){
      document.getElementById("gallery").innerHTML 
@@ -11,8 +12,10 @@ function allPictures(){
      }
 }
 
-let category = ["Alle","Tog","Personer","Logo"];
-let picturess = ["Logo","Tog","Personer","Personer","Tog","Tog","Personer","Tog"];
+
+//Galleri søge funktion
+const category = ["Alle","Tog","Personer","Logo"];
+const picturess = ["Logo","Tog","Personer","Personer","Tog","Tog","Personer","Tog"];
 
 for (let i = 0; i < category.length; i++) {
      document.getElementById("options").innerHTML += '<option value="' + category[i] + '">' + category[i] + '</option>';
