@@ -14,8 +14,5 @@ function calculateTotal() {
             break;
         }
     }
-
-
-    
     document.getElementById("totalPrice").textContent = "Samlet Pris: " + total + ",- kr.";
 }

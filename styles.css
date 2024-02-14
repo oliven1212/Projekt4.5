@@ -45,3 +45,6 @@ a{
 label, p, h2 {
     color: white;
 }
+.container{
+    text-align: center;
+}
