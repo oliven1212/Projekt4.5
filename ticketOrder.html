@@ -12,6 +12,23 @@
         <a href="ticketOrder.html">Køb billet</a>
     </nav>
 
+    <div id="container">
+        <h2>Bestil Billetter</h2>
+        <label for="adultQuantity">Voksne:</label>
+        <input type="number" id="adultQuantity" min="0" value="0">
+        <br><br>
+        <label for="childQuantity">Børn:</label>
+        <input type="number" id="childQuantity" min="0" value="0">
+        <br><br>
+        <p>Pris pr. Voksen 40,- kr.</p>
+        <br><br>
+        <p>Pris pr. Barn 20,- kr.</p>
+        <br><br>
+        <button onclick="calculateTotal()">Beregn Pris</button>
+        <br><br>
+        <p id="totalPrice">Samlet Pris: $0.00</p>
+    </div>
+
 
 </body>
 </html>

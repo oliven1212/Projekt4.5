@@ -42,6 +42,6 @@ a{
     color: white;
     text-decoration: none;
 }
-label {
+label, p, h2 {
     color: white;
 }
