@@ -5,9 +5,10 @@ function calculateTotal() {
 
     for (let i = 0; 1==1; i++) {
         if (adultQuantity >= 2 && childQuantity >= 2) {
-            total += 100;
+            total += 100; //total = total + 100;
             adultQuantity -= 2;
             childQuantity -= 2;
+            
         }else{
             total += adultQuantity*40;
             total += childQuantity*20;
